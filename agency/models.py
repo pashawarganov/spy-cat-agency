@@ -1,8 +1,7 @@
 from django.db import models
-from django.contrib.auth.models import AbstractUser
 
 
-class Cat(AbstractUser):
+class Cat(models.Model):
     name = models.CharField(max_length=63)
     experience = models.IntegerField(default=0)
     breed = models.CharField(max_length=63)
