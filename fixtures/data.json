@@ -1,0 +1,80 @@
+[
+  {
+    "model": "agency.cat",
+    "pk": 1,
+    "fields": {
+      "name": "Emily",
+      "experience": 0,
+      "salary": 100,
+      "breed": ""
+    }
+  },
+  {
+    "model": "agency.cat",
+    "pk": 2,
+    "fields": {
+      "name": "John",
+      "experience": 0,
+      "salary": 100,
+      "breed": ""
+    }
+  },
+  {
+    "model": "agency.cat",
+    "pk": 3,
+    "fields": {
+      "name": "Michael",
+      "experience": 0,
+      "salary": 100,
+      "breed": ""
+    }
+  },
+  {
+    "model": "agency.target",
+    "pk": 1,
+    "fields": {
+      "name": "Sophia",
+      "country": "Ukraine",
+      "notes": "Some notes...",
+      "complete": false
+    }
+  },
+  {
+    "model": "agency.target",
+    "pk": 2,
+    "fields": {
+      "name": "Ivan",
+      "country": "Poland",
+      "notes": "Some notes...",
+      "complete": true
+    }
+  },
+  {
+    "model": "agency.target",
+    "pk": 3,
+    "fields": {
+      "name": "Vova",
+      "country": "Russia",
+      "notes": "Some notes...",
+      "complete": false
+    }
+  },
+  {
+    "model": "agency.mission",
+    "pk": 1,
+    "fields": {
+      "cat": 1,
+      "target": [1],
+      "complete": false
+    }
+  },
+  {
+    "model": "agency.mission",
+    "pk": 2,
+    "fields": {
+      "cat": 2,
+      "target": [2, 3],
+      "complete": false
+    }
+  }
+]
